@@ -1,0 +1,23 @@
+# Fichiers de configuration spécifiques à l'environnement
+
+.env
+*.sqlite3
+
+# Fichiers générés par Django
+/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Dossiers générés par Django
+/migrations/
+/staticfiles/
+/media/
+
+# Fichiers de logs
+logs/
+*.log
+
+# Fichiers de cache
+__pycache__/
+.cached_data/
